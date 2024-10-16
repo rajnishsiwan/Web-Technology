@@ -1,0 +1,68 @@
+#circle{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: yellow;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 50px;
+}
+.eye{
+
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 28px;
+    border-radius: 100px;
+    padding: 0.25em;
+    background-color: black;
+    transition: height 0.3s linear;
+}
+
+.eye:hover{
+    height: 0;
+}
+
+#mouth{
+    width: 80px;
+    height: 40px;
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: red;
+    border: 1px solid ;
+}
+#inner{
+    width: 10px;
+    height: 10px;
+    border: 2px solid ;
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    
+}
+.eye:hover #inner {
+    display: none;
+}
+
+#toung{
+    width: 50px;
+    height: 30px;
+    border-radius: 0% 0% 50% 50%;
+    margin: auto;
+    margin-top: 30%;
+    background-color: rgb(241, 203, 171);
+    box-shadow: 2px 2px 2px ;
+    transition: box-shadow 0.3s linear;
+
+    
+}
+
+#toung:hover{
+    box-shadow: 2px 4px 4px ;
+}
